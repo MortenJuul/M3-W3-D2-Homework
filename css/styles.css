@@ -1,0 +1,75 @@
+* {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+p {
+  text-align: center;
+  width: 35%;
+}
+
+.container {
+  background-color: #f7eb80;
+  border: 1px solid #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+  width: 50%;
+}
+
+.container .left {
+  background-color: #6e7a5b;
+  height: 100%;
+  width: 69%;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .right {
+  background-color: #a6ad80;
+  height: 100%;
+  position: relative;
+  width: 29%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .right .button {
+  background-color: #dcf829;
+  color: #6e7a5b;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 7em;
+  height: 2.5em;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5em 2em;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -120%);
+          transform: translate(-50%, -120%);
+}
+/*# sourceMappingURL=styles.css.map */
